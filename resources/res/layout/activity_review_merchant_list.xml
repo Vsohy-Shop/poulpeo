@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolBar" app:elevation="0dp" layout="@layout/tool_bar"/>
+    <TextView android:textColor="@color/theme" android:gravity="center" android:id="@+id/textViewPaymentConditions" android:background="@color/text_background_info" android:layout_width="match_parent" android:layout_height="36dp" android:text="@string/review_merchant_add_payment_conditions_button_label" android:layout_below="@+id/toolBar"/>
+    <com.rmn.p324ui.views.listview.BaseListView android:id="@+id/reviewMerchantListView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/textViewPaymentConditions"/>
+    <Button android:textSize="18sp" android:id="@+id/fabAddReview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30dp" android:text="@string/review_merchant_list_add_button_label" android:layout_alignParentBottom="true" style="@style/MRButton"/>
+</RelativeLayout>

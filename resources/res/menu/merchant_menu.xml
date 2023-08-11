@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/action_share" android:id="@+id/action_share" android:title="@string/merchant_share" app:showAsAction="always"/>
+    <item android:icon="@drawable/action_info" android:id="@+id/action_info" android:title="@string/merchant_action_information" app:showAsAction="always"/>
+    <item android:icon="@drawable/action_like_off" android:id="@+id/action_like" android:title="@string/merchant_action_like" app:showAsAction="always"/>
+</menu>

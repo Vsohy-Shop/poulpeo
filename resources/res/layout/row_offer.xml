@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/layoutMain" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offer_card_margin" android:layout_marginStart="@dimen/offer_card_margin" android:layout_marginEnd="@dimen/offer_card_margin" app:cardCornerRadius="8dp" app:cardElevation="2dp">
+    <LinearLayout android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="120dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/text_non_cumulative_code" android:id="@+id/textViewOfferType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offer_type_code" android:textAllCaps="true"/>
+                <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/text_theme" android:id="@+id/textViewTypeCashback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offer_type_plus_cashback" android:textAllCaps="true" android:layout_marginStart="4dp"/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_title_default" android:id="@+id/textViewTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+            <TextView android:textSize="16sp" android:textColor="@color/text_description_default" android:id="@+id/textViewCashback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+            <TextView android:textSize="14sp" android:textColor="@color/text_warning" android:id="@+id/textViewExpiration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:drawablePadding="2dp" android:drawableStart="@drawable/offer_clock" app:drawableTint="@color/background_warning"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp">
+            <ImageView android:id="@+id/imageViewDecoration" android:layout_width="94dp" android:layout_height="wrap_content" android:scaleType="fitCenter" android:contentDescription="@null" app:tint="@color/background_theme"/>
+            <TextView android:textSize="28sp" android:textStyle="bold" android:textColor="@color/theme" android:gravity="center" android:id="@+id/textViewAmount" android:layout_width="94dp" android:layout_height="wrap_content"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonUse" android:layout_width="110dp" android:layout_height="36dp" android:layout_marginTop="8dp" android:layout_marginBottom="0dp" android:text="@string/offer_use_code" style="@style/MRButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

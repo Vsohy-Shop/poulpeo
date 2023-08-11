@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <include android:id="@+id/toolBar" layout="@layout/tool_bar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/text_subtitle_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/notification_admin_subtitle_center" android:layout_marginStart="16dp"/>
+    <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewPush" android:text="@string/notification_admin_push" style="@style/account_row"/>
+    <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewMail" android:text="@string/notification_admin_mail" style="@style/account_row"/>
+    <View style="@style/separator_account"/>
+    <RelativeLayout android:id="@+id/layoutAdmin" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:textColor="@color/text_subtitle_default" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp" android:text="Vous êtes administrateur Poulpeo.\10Ce téléphone peut recevoir des notifs de test." android:layout_above="@+id/buttonAdmin"/>
+        <Button android:id="@+id/buttonAdmin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recevoir des notifs" android:layout_alignParentBottom="true" style="@style/MRButton"/>
+    </RelativeLayout>
+</LinearLayout>

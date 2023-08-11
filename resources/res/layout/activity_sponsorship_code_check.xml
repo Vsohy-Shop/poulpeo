@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="100dp" android:paddingBottom="50dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="52dp" android:layout_marginEnd="52dp" style="@style/login_edit_fields">
+                <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/sponsorship_code_check_edit_hint" app:hintAnimationEnabled="false">
+                    <EditText android:id="@+id/editTextSponsorshipCode" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="text" style="@style/login_edit_fields"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <ProgressBar android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/progressView" android:padding="@dimen/activity_horizontal_margin" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginEnd="4dp"/>
+            </FrameLayout>
+            <TextView android:textSize="12sp" android:textColor="@color/text_indicator_negative" android:id="@+id/textViewInvalid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sponsorship_code_check_invalid_code_message"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/layoutValidate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12sp" android:textColor="@color/text_condition_validated" android:layout_gravity="center_horizontal" android:id="@+id/textViewValid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sponsorship_code_check_valid_code_message" android:drawablePadding="4dp" android:drawableStart="@drawable/checkmark"/>
+                <Button android:id="@+id/buttonValidate" android:layout_marginTop="28dp" android:layout_marginBottom="0dp" android:text="@string/sponsorship_code_check_validate_button" style="@style/MRButton"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolBar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:layout_scrollFlags="15" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+</RelativeLayout>

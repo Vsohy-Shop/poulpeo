@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp">
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar android:id="@+id/circleProgress" android:layout_width="192dp" android:layout_height="192dp" android:layout_centerInParent="true" app:cpb_background_progressbar_color="@color/zeplin_silver_two" app:cpb_background_progressbar_width="8dp" app:cpb_progressbar_color="@color/background_earnings" app:cpb_progressbar_width="8dp"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="40sp" android:textColor="@color/text_title_default" android:id="@+id/totalAmountTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="12sp" android:textColor="@color/text_title_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/earnings_total_label"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@+id/pendingColorIndicator" android:background="@color/zeplin_silver_two" android:layout_width="4dp" android:layout_height="40dp" android:layout_alignTop="@+id/pendingAmountTextView" android:layout_alignBottom="@+id/pendingAmountLabel" android:layout_marginEnd="8dp"/>
+            <TextView android:textSize="24sp" android:textColor="@color/text_title_default" android:id="@+id/pendingAmountTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginEnd="12dp" android:layout_toEndOf="@+id/pendingColorIndicator"/>
+            <TextView android:textSize="10sp" android:textColor="@color/text_title_default" android:id="@+id/pendingAmountLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/earnings_pending_label" android:layout_below="@+id/pendingAmountTextView" android:layout_alignStart="@+id/pendingAmountTextView"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="44dp">
+            <View android:id="@+id/acceptedAmountColorIndicator" android:background="@color/background_earnings" android:layout_width="4dp" android:layout_height="40dp" android:layout_alignTop="@+id/acceptedAmountTextView" android:layout_alignBottom="@+id/acceptedAmountLabel" android:layout_marginEnd="8dp"/>
+            <TextView android:textSize="24sp" android:textColor="@color/text_title_default" android:id="@+id/acceptedAmountTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toEndOf="@+id/acceptedAmountColorIndicator"/>
+            <TextView android:textSize="10sp" android:textColor="@color/text_title_default" android:id="@+id/acceptedAmountLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/earnings_validated_label" android:layout_below="@+id/acceptedAmountTextView" android:layout_alignStart="@+id/acceptedAmountTextView"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:background="@color/background_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+        <View android:id="@+id/earnings_amount_background_anchor" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="12dp"/>
+        <View android:id="@+id/earnings_amount_background_gradient" android:background="@drawable/background_expandable_list_sub_item_last_light" android:layout_width="match_parent" android:layout_height="12dp" android:layout_below="@+id/earnings_amount_background_anchor"/>
+        <View android:id="@+id/separator" android:layout_below="@+id/earnings_amount_background_gradient" style="@style/separator_default"/>
+        <Button android:textSize="18sp" android:layout_gravity="center_horizontal" android:id="@+id/requestPaymentButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0dp" android:text="@string/earnings_ask_payment_button_label" style="@style/MRButtonEarnings"/>
+    </RelativeLayout>
+</LinearLayout>

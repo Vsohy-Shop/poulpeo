@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/imageViewIllustration" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-180dp" android:scaleType="fitCenter" android:adjustViewBounds="true" android:minHeight="256dp" android:layout_alignParentTop="true" android:contentDescription="@null"/>
+    <RelativeLayout android:id="@+id/titleLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_below="@+id/imageViewIllustration">
+        <TextView android:textSize="22sp" android:textColor="@color/text_title_default" android:id="@+id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16dp"/>
+        <TextView android:textSize="18sp" android:textColor="@color/text_theme" android:gravity="center" android:id="@+id/showAllTextView" android:background="@drawable/button_flat_rounded_default_style" android:padding="4dp" android:layout_width="50dp" android:layout_height="30dp" android:text="" android:includeFontPadding="false" android:layout_centerVertical="true" android:drawableEnd="@drawable/arrow_right_selector" android:layout_marginEnd="10dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <HorizontalScrollView android:scrollbarSize="4dp" android:id="@+id/sliderContainerScrollView" android:paddingBottom="12dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/titleLayout" android:overScrollMode="never">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/sliderContainerLayout" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </HorizontalScrollView>
+    <View android:id="@+id/viewBottomSeparator" android:layout_below="@+id/sliderContainerScrollView" style="@style/separator_default"/>
+</RelativeLayout>

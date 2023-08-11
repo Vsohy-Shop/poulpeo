@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progressbarLoader" android:layout_width="50dp" android:layout_height="50dp" android:layout_centerInParent="true"/>
+    <com.rmn.p324ui.views.webview_reload.NestedWebView android:id="@+id/webView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/layoutButtonReload" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="@color/text_subtitle_default" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/webview_load_failed" android:layout_above="@+id/buttonReload" android:layout_centerHorizontal="true"/>
+        <Button android:textColor="@color/button_text_default" android:layout_gravity="center" android:id="@+id/buttonReload" android:layout_marginTop="20dp" android:text="@string/refresh_webview" android:layout_centerInParent="true" style="@style/MRButton"/>
+    </RelativeLayout>
+    <ProgressBar android:id="@+id/progressbarLoaderLinear" android:layout_width="match_parent" android:layout_height="4dp" android:progressTint="@color/web_progress" style="?android:attr/progressBarStyleHorizontal"/>
+</RelativeLayout>

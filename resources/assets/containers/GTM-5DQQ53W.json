@@ -1,0 +1,50 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2019-07-22 15:12:26",
+    "containerVersion": {
+        "path": "accounts/163632587/containers/12479812/versions/0",
+        "accountId": "163632587",
+        "containerId": "12479812",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/163632587/containers/12479812",
+            "accountId": "163632587",
+            "containerId": "12479812",
+            "name": "App Poulpeo Android - UAT",
+            "publicId": "GTM-5DQQ53W",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1563808270467",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/163632587/containers/12479812/workspaces?apiLink=container"
+        },
+        "builtInVariable": [
+            {
+                "accountId": "163632587",
+                "containerId": "12479812",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "163632587",
+                "containerId": "12479812",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "163632587",
+                "containerId": "12479812",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "163632587",
+                "containerId": "12479812",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            }
+        ],
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/163632587/containers/12479812/versions/0?apiLink=version"
+    }
+}

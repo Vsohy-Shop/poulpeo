@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.viewpager.widget.ViewPager android:id="@+id/pager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:overScrollMode="never"/>
+    <com.viewpagerindicator.CirclePageIndicator android:id="@+id/indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="40dp" app:fillColor="@color/fill_circle_indicator" app:pageColor="@color/page_circle_indicator" app:radius="5dp" app:strokeWidth="0dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/viewButtonsContainer" android:background="@color/background_new" android:layout_width="match_parent" android:layout_height="60dp">
+        <Button android:id="@+id/buttonSignUp" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/onboarding_signup_button" android:layout_weight="1" style="@style/MRButtonAlternativeTransparentNoStroke"/>
+        <View android:layout_gravity="center" android:background="@color/overlay_background_alpha" android:layout_width="1dp" android:layout_height="30dp"/>
+        <Button android:id="@+id/buttonSignIn" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/onboarding_signin_button" android:layout_weight="1" style="@style/MRButtonAlternativeTransparentNoStroke"/>
+    </LinearLayout>
+</LinearLayout>

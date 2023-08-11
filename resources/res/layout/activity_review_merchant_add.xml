@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolBar" layout="@layout/tool_bar"/>
+    <TextView android:textColor="@color/theme" android:gravity="center" android:id="@+id/textViewPaymentConditions" android:background="@color/text_background_info" android:layout_width="match_parent" android:layout_height="36dp" android:text="@string/review_merchant_add_payment_conditions_button_label" android:layout_below="@+id/toolBar"/>
+    <ScrollView android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/textViewPaymentConditions">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="26sp" android:id="@+id/textViewMerchantName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_title_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/review_merchant_add_rating_label"/>
+            <RatingBar android:id="@+id/ratingBar" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginTop="4dp" android:progressDrawable="@drawable/rating_layers_large" android:numStars="5" android:stepSize="1"/>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputDateOrder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/review_merchant_add_date_order" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+                <EditText android:textColor="@color/text_description_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:editable="false" android:inputType="none"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputContent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:hint="@string/review_merchant_add_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+                <EditText android:gravity="top|left|center_vertical|center_horizontal|center|start" android:background="@android:color/transparent" android:paddingBottom="76dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@+id/layoutCharCount" android:background="@drawable/shape_rectangle_rounded_default" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true" android:layout_marginStart="16dp" android:layout_alignParentStart="true">
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/text_indicator_negative" android:gravity="center" android:id="@+id/textViewCharCounter" android:background="@drawable/shape_rectangle_rounded_red" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_alignParentStart="true"/>
+        <TextView android:textSize="10sp" android:textColor="@color/text_subtitle_default" android:gravity="center" android:id="@+id/textViewMinCharCounter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/textViewCharCounter" android:layout_alignBottom="@+id/textViewCharCounter" android:layout_marginStart="8dp" android:layout_marginEnd="4dp" android:layout_toEndOf="@+id/textViewCharCounter"/>
+    </RelativeLayout>
+    <include layout="@layout/layout_send_data"/>
+</RelativeLayout>

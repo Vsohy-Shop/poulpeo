@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/root_view" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:elevation="0dp">
+        <include android:id="@+id/toolBar" layout="@layout/tool_bar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.rmn.p324ui.views.listview.BaseListView android:gravity="center" android:id="@+id/pageListView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="-2dp" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:progress_negative_margin="?attr/actionBarSize" app:recycler_view_padding_bottom="0dp"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

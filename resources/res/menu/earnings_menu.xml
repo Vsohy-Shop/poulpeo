@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/action_reminder" android:id="@+id/action_reminder" android:title="@string/reminder_hint" app:showAsAction="never|always|collapseActionView"/>
+    <item android:icon="@drawable/action_ask" android:id="@+id/action_ask" android:title="@string/ask_hint" app:showAsAction="never|always|collapseActionView"/>
+</menu>

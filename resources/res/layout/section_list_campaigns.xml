@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/relativeLayoutSection" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/gallery_placeholder" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="center" android:id="@+id/imageViewPlaceholderShimmer" android:background="@drawable/placeholder_campaigns" android:layout_width="match_parent" android:layout_height="200dp" android:layout_margin="0dp" android:contentDescription="@string/placeholder_cashbacks"/>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayoutTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="2dp">
+            <RelativeLayout android:id="@+id/titleLayoutSection" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22sp" android:textColor="@color/text_title_default" android:ellipsize="end" android:id="@+id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_marginEnd="60dp"/>
+                <ImageView android:textSize="18sp" android:gravity="center" android:id="@+id/imageViewArrow" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="30dp" android:src="@drawable/arrow_right_selector" android:includeFontPadding="false" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginEnd="20dp" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <TextView android:textSize="16sp" android:textColor="@color/text_title_default" android:id="@+id/textViewDescription" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:lineHeight="21sp"/>
+        </LinearLayout>
+        <HorizontalScrollView android:scrollbarSize="4dp" android:id="@+id/sliderContainerScrollViewSection" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/linearLayoutTitle" android:overScrollMode="never" android:paddingStart="6dp" android:paddingEnd="6dp">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/sliderContainerLayoutSection" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </HorizontalScrollView>
+    </RelativeLayout>
+</FrameLayout>

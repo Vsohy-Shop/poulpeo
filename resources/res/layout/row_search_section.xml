@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/transparent" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@+id/search_layout" android:background="@drawable/search_background" android:layout_width="match_parent" android:layout_height="46dp">
+        <ImageView android:layout_gravity="center" android:background="@drawable/search_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/description_icon_search" android:layout_marginStart="15dp" android:layout_marginEnd="6dp"/>
+        <TextView android:textSize="16sp" android:layout_gravity="center" android:id="@+id/search_textview" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/placeholder_text_for_search" android:scrollHorizontally="true"/>
+    </LinearLayout>
+</LinearLayout>

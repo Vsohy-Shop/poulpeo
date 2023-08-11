@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <include android:id="@+id/toolBar" app:elevation="0dp" layout="@layout/tool_bar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="40dp" android:paddingBottom="60dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+            <TextView android:textSize="22sp" android:textColor="@color/text_title_default" android:id="@+id/textViewMerchantName" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="16sp" android:textColor="@color/text_description_default" android:id="@+id/textViewDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+            <TextView android:textSize="22sp" android:textColor="@color/text_title_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/merchant_info_verified_title"/>
+            <TextView android:textSize="16sp" android:textColor="@color/text_description_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/merchant_info_verified_description"/>
+            <TextView android:textSize="22sp" android:textColor="@color/text_title_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/merchant_info_help_title"/>
+            <Button android:layout_gravity="start" android:id="@+id/buttonHelp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/merchant_info_help_button" android:drawablePadding="4dp" android:drawableEnd="@drawable/arrow_right_default" style="@style/MRButtonAlternativeNoStroke"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

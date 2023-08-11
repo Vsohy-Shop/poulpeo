@@ -1,0 +1,104 @@
+{
+  "data": {
+    "type": "page",
+    "id": "6222",
+    "attributes": {
+      "shortTitle": "Home app",
+      "blocks": [
+        {
+          "location": "main",
+          "components": [
+            {
+              "type": "itemShortcode",
+              "order": 1,
+              "representation": "",
+              "content": "banner1"
+            },
+            {
+              "type": "itemShortcode",
+              "order": 2,
+              "representation": "",
+              "content": "favorites"
+            },
+            {
+              "type": "itemHighlightCampaign",
+              "order": 3,
+              "representation": "billboard",
+              "title": "À la une",
+              "highlight_campaign_type": "app_home_a_la_une",
+              "sponsored": true
+            },
+            {
+              "type": "itemHighlightCampaign",
+              "order": 4,
+              "representation": "billboard",
+              "title": "En ce moment",
+              "highlight_campaign_type": "app_home_en_ce_moment",
+              "sponsored": true
+            },
+            {
+              "type": "listCashbacks",
+              "order": 5,
+              "representation": "standard",
+              "limit": 8,
+              "sponsored": false,
+              "summary": false,
+              "link_title": "",
+              "link": "",
+              "title": "Sélection Black Friday",
+              "tags": [],
+              "description": "",
+              "list_id": [
+                29307
+              ],
+              "list_technical_name": [
+                "app_plp_selection_black_friday"
+              ]
+            },
+            {
+              "type": "itemHighlightCampaign",
+              "order": 6,
+              "representation": "horizontal",
+              "title": "Sélection incontournables",
+              "highlight_campaign_type": "app_les_incontournables",
+              "sponsored": true
+            },
+            {
+              "type": "listCashbacks",
+              "order": 7,
+              "representation": "standard",
+              "limit": 10,
+              "sponsored": false,
+              "summary": false,
+              "link_title": "",
+              "link": "",
+              "title": "Nos apps partenaires",
+              "tags": [],
+              "description": "Activez le cashback depuis l’application Poulpeo comme d’habitude et achetez via les applications des boutiques partenaires (Asos, Groupon, Adidas...)",
+              "list_id": [
+                26837
+              ],
+              "list_technical_name": [
+                "app_apps_partenaires"
+              ]
+            },
+            {
+              "type": "itemShortcode",
+              "order": 8,
+              "representation": "",
+              "content": "banner2"
+            }
+          ]
+        }
+      ]
+    },
+    "relationships": {
+      "templateInfo": {
+        "data": {
+          "type": "template",
+          "id": "1344"
+        }
+      }
+    }
+  }
+}

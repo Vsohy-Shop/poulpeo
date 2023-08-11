@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/relativeLayout" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginStart="4dp" android:layout_marginEnd="4dp">
+    <RelativeLayout android:id="@+id/layoutTitleContainer" android:background="@drawable/button_flat_alternative_style" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <TextView android:textSize="16sp" android:id="@+id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_toStartOf="@+id/imageViewExpand" android:layout_alignParentStart="true"/>
+        <ImageView android:id="@+id/imageViewExpand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_expand_black" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <TextView android:id="@+id/textViewDetail" android:paddingTop="4dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp" app:layout_constraintTop_toBottomOf="@+id/layoutTitleContainer"/>
+    <View app:layout_constraintTop_toBottomOf="@+id/textViewDetail" style="@style/separator_default"/>
+    <View android:background="@color/separator_default" android:layout_width="1dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

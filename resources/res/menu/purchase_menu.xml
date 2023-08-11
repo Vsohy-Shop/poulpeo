@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/action_more" android:id="@+id/action_options" android:title="@string/purchase_action_more" app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/action_browser" android:title="@string/purchase_option_browser" app:showAsAction="ifRoom"/>
+            <item android:id="@+id/action_forward" android:title="@string/purchase_option_forward" app:showAsAction="ifRoom"/>
+            <item android:id="@+id/action_refresh" android:title="@string/purchase_option_refresh" app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>

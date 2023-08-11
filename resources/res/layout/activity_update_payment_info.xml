@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/background_alternative" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <include android:id="@+id/toolBar" layout="@layout/tool_bar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:padding="32dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textColor="@color/text_title_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/update_payment_info_subtitle_required"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp">
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputCivility" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/update_payment_info_civility" android:layout_centerVertical="true">
+                    <EditText android:id="@+id/editTextCivility" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" android:imeOptions="actionNext"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <Spinner android:id="@+id/spinnerCivility" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputLastName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_last_name">
+                <EditText android:id="@+id/editTextLastName" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="none|text|textCapWords|textEmailAddress|textShortMessage|textPersonName" android:imeOptions="actionNext"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputFirstName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_first_name">
+                <EditText android:id="@+id/editTextFirstName" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="none|text|textCapWords|textEmailAddress|textShortMessage|textPersonName" android:imeOptions="actionNext"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp">
+                <Spinner android:id="@+id/spinnerCountry" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_centerInParent="true"/>
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputCountry" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/update_payment_info_country">
+                    <EditText android:id="@+id/editTextCountry" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" android:imeOptions="actionNext"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </RelativeLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputIban" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_iban">
+                <EditText android:id="@+id/editTextIban" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textCapCharacters" android:imeOptions="actionNext"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputBic" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_bic">
+                <EditText android:id="@+id/editTextBic" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textCapCharacters" android:imeOptions="actionNext"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputEmailPaypal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_email_paypal">
+                <EditText android:id="@+id/editTextEmailPaypal" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="actionNext"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputAddress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_address">
+                <EditText android:id="@+id/editTextAddress" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="none|text|textCapSentences|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress" android:imeOptions="actionNext"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputZip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_zip">
+                <EditText android:id="@+id/editTextZip" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPostalAddress" android:imeOptions="actionNext"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputCity" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_city">
+                <EditText android:id="@+id/editTextCity" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="none|text|textCapSentences|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress" android:imeOptions="actionNext"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView android:textSize="20sp" android:textColor="@color/text_title_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="64dp" android:text="@string/update_payment_info_subtitle_optional"/>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputPhone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_phone">
+                <EditText android:id="@+id/editTextPhone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="phone" android:imeOptions="actionNext"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/textInputMobile" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/update_payment_info_mobile">
+                <EditText android:id="@+id/editTextMobile" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="phone" android:imeOptions="actionDone"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button android:layout_gravity="center" android:id="@+id/buttonSaveChanges" android:layout_marginTop="40dp" android:layout_marginBottom="30dp" android:text="@string/update_payment_info_save" style="@style/MRButton"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/background_alternative" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <include android:id="@+id/toolBar" layout="@layout/tool_bar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/layoutBackgroundGradient" android:background="@drawable/gradient_theme" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20sp" android:textColor="@color/text_title_alternative" android:id="@+id/textViewBonusPoulpeoPlus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/poulpeo_plus_1_title"/>
+                <TextView android:textSize="16sp" android:textColor="@color/text_description_alternative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/poulpeo_plus_1_description"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22sp" android:textColor="@color/text_title_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/poulpeo_plus_2_title"/>
+                <TextView android:textSize="16sp" android:textColor="@color/text_description_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/poulpeo_plus_2_description"/>
+                <TextView android:textSize="22sp" android:textColor="@color/text_title_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/poulpeo_plus_3_title"/>
+                <TextView android:textSize="16sp" android:textColor="@color/text_description_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/poulpeo_plus_3_description"/>
+                <Button android:layout_gravity="start" android:id="@+id/buttonSponsorship" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/poulpeo_plus_sponsor_code" android:drawablePadding="4dp" android:drawableEnd="@drawable/arrow_right_default" style="@style/MRButtonAlternativeNoStroke"/>
+                <TextView android:textSize="22sp" android:textColor="@color/text_title_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/poulpeo_plus_4_title"/>
+                <TextView android:textSize="16sp" android:textColor="@color/text_description_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="40dp" android:text="@string/poulpeo_plus_4_description"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

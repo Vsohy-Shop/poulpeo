@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/tabs_layout" android:padding="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.viewpager.widget.ViewPager android:id="@+id/pager" android:layout_width="240dp" android:layout_height="280dp"/>
+    <com.viewpagerindicator.CirclePageIndicator android:id="@+id/titles" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" app:fillColor="@color/fill_circle_indicator" app:radius="4dp"/>
+    <Button android:textSize="12sp" android:textColor="@color/button_text_borderless_default" android:layout_gravity="center" android:id="@+id/buttonClose" android:background="@null" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_features_dialog_negative_button_text" android:textAllCaps="true"/>
+</LinearLayout>

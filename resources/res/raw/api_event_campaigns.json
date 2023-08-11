@@ -1,0 +1,490 @@
+{
+  "data": [
+    {
+      "type": "campaign",
+      "id": "152473",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152473,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "4457"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152474",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152474,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "54644"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152475",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152475,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "980"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152476",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152476,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "8927"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152478",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152478,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "345"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152479",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152479,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "28954"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152480",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152480,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "4164"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152481",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152481,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "240"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152482",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152482,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "955"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152484",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152484,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "114"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152485",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152485,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "4534"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152486",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152486,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "1477"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152487",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152487,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "54238"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152488",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152488,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "788"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "152489",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1636412400,
+        "dataDateEnd": 1857423540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 152489,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Nike",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "54572"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "173823",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1665352800,
+        "dataDateEnd": 1665611940,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 173823,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Dockers",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "11078"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "174051",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1665352800,
+        "dataDateEnd": 1665525540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 174051,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Vestiaire Collective",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "4163"
+          }
+        }
+      }
+    },
+    {
+      "type": "campaign",
+      "id": "174064",
+      "attributes": {
+        "dataTarget": "merchant",
+        "dataDateStart": 1665180000,
+        "dataDateEnd": 1665525540,
+        "dataIllustrations": "",
+        "dataSpecificUrl": "",
+        "trackingParameters": {
+          "campaign_id": 174064,
+          "medium": "highlight",
+          "source": "app_les_incontournables",
+          "campaign_name": "R\u00e9ductions pour le marchand Zalando Priv\u00e9",
+          "location": "everywhere",
+          "location_id": ""
+        }
+      },
+      "relationships": {
+        "target": {
+          "data": {
+            "type": "merchant",
+            "id": "38552"
+          }
+        }
+      }
+    }
+  ]
+}

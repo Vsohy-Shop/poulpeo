@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <include android:id="@+id/toolBar" layout="@layout/tool_bar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/text_subtitle_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/contact_info_subtitle_login" android:layout_marginStart="16dp"/>
+    <TextView android:textSize="18sp" android:textColor="@color/text_title_default" android:id="@+id/textViewLoginInfo" android:text="@string/contact_info_login_info" style="@style/account_row"/>
+    <TextView android:textSize="18sp" android:textColor="@color/text_title_default" android:id="@+id/textViewUpdatePassword" android:text="@string/contact_info_update_password" style="@style/account_row"/>
+    <View style="@style/separator_account"/>
+    <TextView android:textSize="12sp" android:textColor="@color/text_subtitle_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/contact_info_subtitle_payment" android:layout_marginStart="16dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layoutUpdatePaymentInfo" style="@style/account_row">
+        <TextView android:textSize="18sp" android:textColor="@color/text_title_default" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/contact_info_payment_info" android:layout_weight="1"/>
+        <TextView android:textSize="14sp" android:textColor="@color/text_warning" android:id="@+id/textViewMissingPayment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_info_missing_payment"/>
+    </LinearLayout>
+    <View style="@style/separator_account"/>
+    <TextView android:textSize="12sp" android:textColor="@color/text_subtitle_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/contact_info_subtitle_unregister" android:layout_marginStart="16dp"/>
+    <TextView android:textSize="18sp" android:textColor="@color/text_title_default" android:id="@+id/textViewUnregister" android:text="@string/contact_info_unregister" style="@style/account_row"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="52dp" android:paddingBottom="100dp" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28sp" android:textColor="@color/text_title_default" android:gravity="center_horizontal" android:id="@+id/textViewTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/account_signup_title"/>
+            <TextView android:textSize="20sp" android:gravity="center_horizontal" android:id="@+id/textViewSubtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/account_signup_subtitle"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonLoginGoogle" android:layout_marginTop="52dp" android:text="@string/button_google_sign_up" style="@style/GoogleLoginButton"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonLoginFacebook" android:layout_marginTop="16dp" android:text="@string/button_facebook_sign_up" style="@style/FacebookLoginButton"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonLoginApple" android:layout_marginTop="16dp" android:text="@string/button_apple_sign_up" style="@style/AppleLoginButton"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonEmailSignup" android:layout_marginTop="16dp" android:text="@string/account_signup_button_email_signup" android:drawableStart="@drawable/logo_email" style="@style/MRButton"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonSponsored" android:background="@drawable/button_style_cashback_activated" android:text="@string/account_signup_textview_sponsored_label" style="@style/MRButton"/>
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@+id/separator" android:layout_marginTop="24dp" android:layout_above="@+id/textViewLoginExisting" style="@style/separator_default"/>
+    <TextView android:textColor="@color/text_title_default" android:gravity="center" android:id="@+id/textViewLoginExisting" android:background="@drawable/button_flat_default_style" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/account_connect" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:id="@+id/layoutLoader" android:background="@color/background_default" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progressBarLoaderLayout" android:layout_width="40dp" android:layout_height="40dp"/>
+    </FrameLayout>
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolBar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:layout_scrollFlags="15" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+</RelativeLayout>

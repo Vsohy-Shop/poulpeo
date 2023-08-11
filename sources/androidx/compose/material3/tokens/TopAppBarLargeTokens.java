@@ -1,0 +1,79 @@
+package androidx.compose.material3.tokens;
+
+import androidx.compose.p002ui.unit.C1232Dp;
+
+/* compiled from: TopAppBarLargeTokens.kt */
+public final class TopAppBarLargeTokens {
+    private static final ColorSchemeKeyTokens ContainerColor = ColorSchemeKeyTokens.Surface;
+    private static final float ContainerElevation = ElevationTokens.INSTANCE.m34877getLevel0D9Ej5fM();
+    private static final float ContainerHeight = C1232Dp.m38468constructorimpl((float) 152.0d);
+    private static final ShapeKeyTokens ContainerShape = ShapeKeyTokens.CornerNone;
+    private static final ColorSchemeKeyTokens ContainerSurfaceTintLayerColor = ColorSchemeKeyTokens.SurfaceTint;
+    private static final ColorSchemeKeyTokens HeadlineColor;
+    private static final TypographyKeyTokens HeadlineFont = TypographyKeyTokens.HeadlineMedium;
+    public static final TopAppBarLargeTokens INSTANCE = new TopAppBarLargeTokens();
+    private static final ColorSchemeKeyTokens LeadingIconColor;
+    private static final float LeadingIconSize;
+    private static final ColorSchemeKeyTokens TrailingIconColor = ColorSchemeKeyTokens.OnSurfaceVariant;
+    private static final float TrailingIconSize;
+
+    static {
+        ColorSchemeKeyTokens colorSchemeKeyTokens = ColorSchemeKeyTokens.OnSurface;
+        HeadlineColor = colorSchemeKeyTokens;
+        LeadingIconColor = colorSchemeKeyTokens;
+        float f = (float) 24.0d;
+        LeadingIconSize = C1232Dp.m38468constructorimpl(f);
+        TrailingIconSize = C1232Dp.m38468constructorimpl(f);
+    }
+
+    private TopAppBarLargeTokens() {
+    }
+
+    public final ColorSchemeKeyTokens getContainerColor() {
+        return ContainerColor;
+    }
+
+    /* renamed from: getContainerElevation-D9Ej5fM  reason: not valid java name */
+    public final float m35202getContainerElevationD9Ej5fM() {
+        return ContainerElevation;
+    }
+
+    /* renamed from: getContainerHeight-D9Ej5fM  reason: not valid java name */
+    public final float m35203getContainerHeightD9Ej5fM() {
+        return ContainerHeight;
+    }
+
+    public final ShapeKeyTokens getContainerShape() {
+        return ContainerShape;
+    }
+
+    public final ColorSchemeKeyTokens getContainerSurfaceTintLayerColor() {
+        return ContainerSurfaceTintLayerColor;
+    }
+
+    public final ColorSchemeKeyTokens getHeadlineColor() {
+        return HeadlineColor;
+    }
+
+    public final TypographyKeyTokens getHeadlineFont() {
+        return HeadlineFont;
+    }
+
+    public final ColorSchemeKeyTokens getLeadingIconColor() {
+        return LeadingIconColor;
+    }
+
+    /* renamed from: getLeadingIconSize-D9Ej5fM  reason: not valid java name */
+    public final float m35204getLeadingIconSizeD9Ej5fM() {
+        return LeadingIconSize;
+    }
+
+    public final ColorSchemeKeyTokens getTrailingIconColor() {
+        return TrailingIconColor;
+    }
+
+    /* renamed from: getTrailingIconSize-D9Ej5fM  reason: not valid java name */
+    public final float m35205getTrailingIconSizeD9Ej5fM() {
+        return TrailingIconSize;
+    }
+}

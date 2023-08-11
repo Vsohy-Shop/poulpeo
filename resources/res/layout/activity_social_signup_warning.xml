@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/layoutMainContainer" android:background="@android:color/transparent" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/background_alternative" android:padding="30dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="28sp" android:textColor="@color/text_title_default" android:id="@+id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30dp" android:text="@string/signup_apple_warning_title"/>
+        <TextView android:textSize="18sp" android:textColor="@color/text_subtitle_default" android:gravity="center" android:id="@+id/textViewDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40dp" android:text="@string/signup_apple_warning_description"/>
+        <Button android:id="@+id/buttonValidate" android:layout_marginBottom="20dp" android:text="@string/signup_apple_warning_validate" style="@style/MRButtonAlternative"/>
+        <Button android:id="@+id/buttonCancel" android:layout_marginBottom="40dp" android:text="@string/signup_apple_warning_cancel" style="@style/MRButton"/>
+    </LinearLayout>
+</RelativeLayout>

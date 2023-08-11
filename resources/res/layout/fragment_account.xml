@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/root_view" android:background="@color/background_default" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <include android:id="@+id/toolBar" layout="@layout/tool_bar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@+id/nestedScrollView" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/background_alternative" android:paddingTop="40dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="38sp" android:textColor="@color/text_title_alternative" android:gravity="center" android:id="@+id/textViewInitials" android:background="@drawable/shape_circle_full_gray" android:layout_width="96dp" android:layout_height="96dp" android:layout_margin="8dp"/>
+                <ImageView android:id="@+id/imageViewPoulpeoPlus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8dp" android:src="@drawable/poulpeo_plus" android:layout_alignTop="@+id/textViewInitials" android:layout_marginEnd="-8dp" android:layout_alignEnd="@+id/textViewInitials"/>
+            </RelativeLayout>
+            <TextView android:textSize="21sp" android:textColor="@color/text_title_default" android:ellipsize="end" android:id="@+id/textViewName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="1" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            <TextView android:textSize="13sp" android:textColor="@color/text_title_default" android:ellipsize="end" android:id="@+id/textViewEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="14dp" android:maxLines="1" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            <TextView android:textSize="13sp" android:textColor="@color/text_subtitle_default" android:id="@+id/textViewDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp"/>
+            <TextView android:textSize="13sp" android:textColor="@color/text_subtitle_default" android:id="@+id/textViewAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+            <View android:layout_marginTop="32dp" style="@style/separator_account"/>
+            <TextView android:id="@+id/textViewAddress" android:layout_marginTop="0dp" android:text="@string/account_address_label" style="@style/account_row"/>
+            <TextView android:id="@+id/textViewSponsorship" android:text="@string/account_sponsorship_label" style="@style/account_row"/>
+            <TextView android:id="@+id/textViewNotification" android:text="@string/account_notification_label" style="@style/account_row"/>
+            <View style="@style/separator_account"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewHowItWorks" android:text="@string/account_how_it_works_label" style="@style/account_row"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewInstoreCashback" android:text="@string/account_in_store_cashback" style="@style/account_row"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewAbout" android:text="@string/account_about_label" style="@style/account_row"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewSupport" android:text="@string/account_support_label" style="@style/account_row"/>
+            <View style="@style/separator_account"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewComment" android:text="@string/account_comment_label" style="@style/account_row"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewRating" android:text="@string/account_rating_label" style="@style/account_row"/>
+            <View style="@style/separator_account"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewConditions" android:text="@string/account_conditions_label" style="@style/account_row"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewConfidentiality" android:text="@string/account_confidentiality_label" style="@style/account_row"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewLegal" android:text="@string/account_legal_label" style="@style/account_row"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewOffersInfo" android:text="@string/account_offers_info_label" style="@style/account_row"/>
+            <View style="@style/separator_account"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewDebugEng" android:text="@string/account_debug_info_label" android:drawablePadding="10dp" app:drawableStartCompat="@drawable/app_to_app" style="@style/account_row"/>
+            <TextView android:textColor="@color/text_title_default" android:id="@+id/textViewLogout" android:text="@string/account_logout_label" style="@style/account_row"/>
+            <TextView android:textSize="13sp" android:textColor="@color/text_subtitle_default" android:id="@+id/textViewVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="36dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

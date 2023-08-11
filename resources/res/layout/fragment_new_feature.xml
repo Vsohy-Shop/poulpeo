@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageViewLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:scaleType="fitCenter" android:contentDescription="@null"/>
+    <TextView android:textSize="24sp" android:textColor="@color/text_title_default" android:gravity="center" android:id="@+id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <TextView android:textSize="14sp" android:textColor="@color/text_title_default" android:gravity="center" android:id="@+id/textViewDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <TextView android:textStyle="bold" android:gravity="center" android:id="@+id/textViewKnowMore" android:background="@drawable/button_flat_alternative_style" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/new_feature_know_more"/>
+    <View style="@style/separator_default"/>
+    <TextView android:textStyle="bold" android:textColor="@color/text_theme" android:gravity="center_horizontal" android:id="@+id/textViewOk" android:background="@drawable/button_flat_alternative_style" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/new_feature_ok"/>
+</LinearLayout>

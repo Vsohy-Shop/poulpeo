@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/background_default" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolBar" app:elevation="0dp" layout="@layout/tool_bar"/>
+    <com.rmn.p324ui.views.listview.BaseListView android:id="@+id/listViewSupportTicket" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="?attr/actionBarSize"/>
+    <ImageButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/buttonAddSupportTicket" android:layout_marginBottom="16dp" android:src="@drawable/action_add" android:layout_marginEnd="16dp" style="@style/ButtonSubmit"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,98 @@
+package com.rmn.api.p322v2.poulpeo.general;
+
+import com.rmn.api.p322v2.common.model.BaseCoupon;
+import com.rmn.api.p322v2.common.model.BaseMerchant;
+import com.rmn.api.p322v2.common.model.PinnedObject;
+import com.rmn.api.p322v2.main.general.methodreturn.RMNMethodReturnJSON;
+import com.rmn.api.p322v2.poulpeo.model.Country;
+import com.rmn.api.p322v2.poulpeo.model.Earning;
+import com.rmn.api.p322v2.poulpeo.model.EarningAmount;
+import com.rmn.api.p322v2.poulpeo.model.HomeSectionBanner;
+import com.rmn.api.p322v2.poulpeo.model.HomeSectionEvent;
+import com.rmn.api.p322v2.poulpeo.model.HomeSectionMerchant;
+import com.rmn.api.p322v2.poulpeo.model.HomeSectionRef;
+import com.rmn.api.p322v2.poulpeo.model.Invoice;
+import com.rmn.api.p322v2.poulpeo.model.PLPUser;
+import com.rmn.api.p322v2.poulpeo.model.ReviewMerchant;
+import com.rmn.api.p322v2.poulpeo.model.ReviewMerchantStatus;
+import com.rmn.api.p322v2.poulpeo.model.SponsoredUser;
+import com.rmn.api.p322v2.poulpeo.model.SupportTicket;
+import com.rmn.api.p322v2.poulpeo.model.SupportTicketHelp;
+
+/* renamed from: com.rmn.api.v2.poulpeo.general.PLPMethodReturns */
+public class PLPMethodReturns {
+    public static final RMNMethodReturnJSON COUNTRY_ARRAY = new RMNMethodReturnJSON(true, "array", Country[].class, "countries");
+    public static final RMNMethodReturnJSON CURRENT_TERMS;
+    public static final RMNMethodReturnJSON EARNING_AMOUNT_DETAIL = new RMNMethodReturnJSON(true, "element", EarningAmount.class, "earning_amount");
+    public static final RMNMethodReturnJSON EARNING_ARRAY = new RMNMethodReturnJSON(true, "array", Earning[].class, "earnings");
+    public static final RMNMethodReturnJSON GENERIC_ELEMENT_DETAIL = new RMNMethodReturnJSON(true, "element", Invoice.class);
+    public static final RMNMethodReturnJSON HOME_SECTION_BANNER_DETAIL = new RMNMethodReturnJSON(true, "element", HomeSectionBanner.class);
+    public static final RMNMethodReturnJSON HOME_SECTION_EVENT_DETAIL = new RMNMethodReturnJSON(true, "element", HomeSectionEvent.class);
+    public static final RMNMethodReturnJSON HOME_SECTION_MERCHANT_DETAIL = new RMNMethodReturnJSON(true, "element", HomeSectionMerchant.class);
+    public static final RMNMethodReturnJSON HOME_SECTION_REF_ARRAY = new RMNMethodReturnJSON(true, "array", HomeSectionRef[].class, "sections");
+    public static final RMNMethodReturnJSON LAST_TERMS_ACCEPTED;
+    public static final RMNMethodReturnJSON OFFERS_ARRAY = new RMNMethodReturnJSON(true, "array", BaseCoupon[].class, "coupons");
+    public static final RMNMethodReturnJSON OFFER_DETAIL = new RMNMethodReturnJSON(true, "element", BaseCoupon.class);
+    public static final RMNMethodReturnJSON PLP_MAIL_NOTIFICATION_CASHBACK_ACCEPTED;
+    public static final RMNMethodReturnJSON PLP_MAIL_NOTIFICATION_CASHBACK_PENDING;
+    public static final RMNMethodReturnJSON PLP_MAIL_NOTIFICATION_MONTHLY;
+    public static final RMNMethodReturnJSON PLP_MAIL_NOTIFICATION_NEWSLETTER_BEST_OF;
+    public static final RMNMethodReturnJSON PLP_MAIL_NOTIFICATION_NEWSLETTER_CASHBACK_INCREASE;
+    public static final RMNMethodReturnJSON PLP_MAIL_NOTIFICATION_NEWSLETTER_PARTNERS;
+    public static final RMNMethodReturnJSON PLP_MAIL_NOTIFICATION_NEWSLETTER_RELATIONAL;
+    public static final RMNMethodReturnJSON PLP_MAIL_NOTIFICATION_REVIEW;
+    public static final RMNMethodReturnJSON PLP_MAIL_NOTIFICATION_SPONSORSHIP;
+    public static final RMNMethodReturnJSON PLP_MERCHANT_ARRAY = new RMNMethodReturnJSON(true, "array", BaseMerchant[].class, "merchants");
+    public static final RMNMethodReturnJSON PLP_MERCHANT_DETAIL;
+    public static final RMNMethodReturnJSON PLP_MERCHANT_OBJECT;
+    public static final RMNMethodReturnJSON PLP_MERCHANT_URL;
+    public static final RMNMethodReturnJSON PLP_PINNED_OBJECT_ARRAY = new RMNMethodReturnJSON(true, "array", PinnedObject[].class, "pinned_objects");
+    public static final RMNMethodReturnJSON PLP_PUSH_NOTIFICATION_CASHBACK_INCREASE;
+    public static final RMNMethodReturnJSON PLP_PUSH_NOTIFICATION_EARNING;
+    public static final RMNMethodReturnJSON PLP_USER_DETAIL;
+    public static final RMNMethodReturnJSON PLP_USER_DETAIL_NAMED;
+    public static final RMNMethodReturnJSON PLP_USER_ID = new RMNMethodReturnJSON(true, "element", Integer.class, "id_user");
+    public static final RMNMethodReturnJSON PLP_USER_SHOULD_UPDATE_PAYMENT_INFO;
+    public static final RMNMethodReturnJSON PLP_USER_SPONSOR_LOGIN;
+    private static final String RETURN_KEYNAME_ARRAY = "array";
+    private static final String RETURN_KEYNAME_ELEMENT = "element";
+    private static final String RETURN_KEYNAME_TOTAL = "total";
+    public static final RMNMethodReturnJSON REVIEW_MERCHANT_ARRAY = new RMNMethodReturnJSON(true, "array", ReviewMerchant[].class, "reviews");
+    public static final RMNMethodReturnJSON REVIEW_MERCHANT_ID;
+    public static final RMNMethodReturnJSON REVIEW_MERCHANT_STATUS_DETAIL = new RMNMethodReturnJSON(true, "element", ReviewMerchantStatus.class, "review_merchant_status");
+    public static final RMNMethodReturnJSON SPONSORED_USER_ARRAY = new RMNMethodReturnJSON(true, "array", SponsoredUser[].class, "sponsored_users");
+    public static final RMNMethodReturnJSON SUPPORT_TICKET_ARRAY = new RMNMethodReturnJSON(true, "array", SupportTicket[].class, "support_tickets");
+    public static final RMNMethodReturnJSON SUPPORT_TICKET_DETAIL = new RMNMethodReturnJSON(true, "element", SupportTicket.class);
+    public static final RMNMethodReturnJSON SUPPORT_TICKET_HELP = new RMNMethodReturnJSON(true, "element", SupportTicketHelp.class);
+    public static final RMNMethodReturnJSON TOTAL_COUNT;
+
+    static {
+        Class cls = Integer.TYPE;
+        TOTAL_COUNT = new RMNMethodReturnJSON(false, "total", cls, "total_count");
+        Class<BaseMerchant> cls2 = BaseMerchant.class;
+        PLP_MERCHANT_DETAIL = new RMNMethodReturnJSON(true, "element", cls2);
+        Class<String> cls3 = String.class;
+        PLP_MERCHANT_URL = new RMNMethodReturnJSON(true, "element", cls3, "url");
+        PLP_MERCHANT_OBJECT = new RMNMethodReturnJSON(false, "element", cls2, "merchant");
+        Class<PLPUser> cls4 = PLPUser.class;
+        PLP_USER_DETAIL = new RMNMethodReturnJSON(true, "element", cls4);
+        PLP_USER_DETAIL_NAMED = new RMNMethodReturnJSON(true, "element", cls4, "user");
+        PLP_USER_SPONSOR_LOGIN = new RMNMethodReturnJSON(true, "element", cls3, "sponsor_login");
+        Class cls5 = Boolean.TYPE;
+        PLP_USER_SHOULD_UPDATE_PAYMENT_INFO = new RMNMethodReturnJSON(true, "element", cls5, "should_update_payment_info");
+        PLP_PUSH_NOTIFICATION_EARNING = new RMNMethodReturnJSON(false, "element", cls5, "earning");
+        PLP_PUSH_NOTIFICATION_CASHBACK_INCREASE = new RMNMethodReturnJSON(false, "element", cls5, "cashback_increase");
+        PLP_MAIL_NOTIFICATION_CASHBACK_PENDING = new RMNMethodReturnJSON(false, "element", cls5, "cashback_pending");
+        PLP_MAIL_NOTIFICATION_CASHBACK_ACCEPTED = new RMNMethodReturnJSON(false, "element", cls5, "cashback_accepted");
+        PLP_MAIL_NOTIFICATION_SPONSORSHIP = new RMNMethodReturnJSON(false, "element", cls5, "sponsorship");
+        PLP_MAIL_NOTIFICATION_REVIEW = new RMNMethodReturnJSON(false, "element", cls5, "review");
+        PLP_MAIL_NOTIFICATION_MONTHLY = new RMNMethodReturnJSON(false, "element", cls5, "monthly");
+        PLP_MAIL_NOTIFICATION_NEWSLETTER_CASHBACK_INCREASE = new RMNMethodReturnJSON(false, "element", cls5, "newsletters_cashback_increase");
+        PLP_MAIL_NOTIFICATION_NEWSLETTER_BEST_OF = new RMNMethodReturnJSON(false, "element", cls5, "newsletters_best_of");
+        PLP_MAIL_NOTIFICATION_NEWSLETTER_PARTNERS = new RMNMethodReturnJSON(false, "element", cls5, "newsletters_partners");
+        PLP_MAIL_NOTIFICATION_NEWSLETTER_RELATIONAL = new RMNMethodReturnJSON(false, "element", cls5, "newsletters_relational");
+        REVIEW_MERCHANT_ID = new RMNMethodReturnJSON(true, "element", cls, "id_review");
+        CURRENT_TERMS = new RMNMethodReturnJSON(true, "element", cls, "current_terms");
+        LAST_TERMS_ACCEPTED = new RMNMethodReturnJSON(true, "element", cls5, "last_terms_accepted");
+    }
+}

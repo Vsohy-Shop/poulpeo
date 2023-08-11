@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cashback_description_cell_row_stand_alone">
+        <item quantity="zero">%s remboursé sur vos achats</item>
+        <item quantity="one">%s remboursé sur vos achats</item>
+        <item quantity="other">%s remboursés sur vos achats</item>
+    </plurals>
+    <plurals name="cashback_number_reviews">
+        <item quantity="zero">%d avis</item>
+        <item quantity="one">%d avis</item>
+        <item quantity="other">%d avis</item>
+    </plurals>
+    <plurals name="cashback_refund">
+        <item quantity="zero">%s remboursé</item>
+        <item quantity="one">%s remboursé</item>
+        <item quantity="other">%s remboursés</item>
+    </plurals>
+    <plurals name="merchant_codes_count">
+        <item quantity="one">1 code promo</item>
+        <item quantity="other">%d codes promo</item>
+    </plurals>
+    <plurals name="merchant_deals_count">
+        <item quantity="one">1 bon plan</item>
+        <item quantity="other">%d bons plans</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="offer_expiration_days">
+        <item quantity="one">Plus que 1 jour</item>
+        <item quantity="other">Plus que %d jours</item>
+    </plurals>
+    <plurals name="offer_expiration_hours">
+        <item quantity="zero">Expire bientôt</item>
+        <item quantity="one">Plus que 1h</item>
+        <item quantity="other">Plus que %dh</item>
+    </plurals>
+    <plurals name="review_merchant_add_min_char_count_label">
+        <item quantity="one">%d caractère min.</item>
+        <item quantity="other">%d caractères min.</item>
+    </plurals>
+</resources>

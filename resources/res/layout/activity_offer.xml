@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/background_alternative" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolBar" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ProgressBar android:id="@+id/progressBarLoader" android:layout_width="50dp" android:layout_height="50dp" android:layout_centerInParent="true"/>
+    <ScrollView android:id="@+id/scrollViewContent" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_below="@+id/appbar">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="160dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+            <TextView android:textSize="14sp" android:textColor="@color/text_subtitle_default" android:id="@+id/textViewMerchantName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:textAllCaps="true"/>
+            <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="@color/text_title_default" android:id="@+id/textViewOfferTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+            <TextView android:textSize="16sp" android:textColor="@color/text_theme" android:id="@+id/textViewCashback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+            <TextView android:textSize="16sp" android:textColor="@color/text_subtitle_default" android:gravity="center" android:id="@+id/textViewNoSupport" android:background="@drawable/shape_rectangle_default" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/cashback_no_support"/>
+            <TextView android:textSize="14sp" android:textColor="@color/text_subtitle_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/offer_conditions" android:textAllCaps="true"/>
+            <TextView android:textSize="16sp" android:textColor="@color/text_description_default" android:id="@+id/textViewConditions" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_marginTop="10dp" android:layout_weight="1"/>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@+id/buttonUseOffer" android:layout_marginBottom="20dp" android:text="@string/offer_use_code" android:layout_above="@+id/buttonShare" style="@style/MRButton"/>
+    <Button android:id="@+id/buttonShare" android:layout_marginBottom="40dp" android:text="@string/offer_share" android:layout_alignParentBottom="true" android:drawableStart="@drawable/action_share" android:paddingStart="30dp" style="@style/MRButtonAlternative"/>
+    <View android:background="@drawable/gradient_theme_line" android:layout_width="match_parent" android:layout_height="10dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

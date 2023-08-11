@@ -1,0 +1,23 @@
+{
+  "data": {
+    "type": "application",
+    "id": "4",
+    "attributes": {
+      "welcomeBonusAmount": 3,
+      "uaebBonusAmount": 3,
+      "endpointImage": "https://cloud.retailmenot.fr",
+      "paymentThreshold": null,
+      "forceRecaptcha": false,
+      "tabUnderEnabled": false,
+      "reviewMinCharCount": null,
+      "reviewMaxCharCount": null,
+      "reviewMinPaidCharCount": null,
+      "abtastyEnabled": true,
+      "sponsorshipBonusAmount": null,
+      "clientId": "olm4f8be2f5359557.71533147",
+      "defaultContext": "cashback",
+      "aliasOf": "",
+      "flagStatus": true
+    }
+  }
+}

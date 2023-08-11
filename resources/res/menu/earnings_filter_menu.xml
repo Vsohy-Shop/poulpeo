@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/menu_earnings_all" android:title="@string/earnings_filters_all"/>
+    <item android:id="@+id/menu_earnings_cashback" android:title="@string/earnings_filters_cashback"/>
+    <item android:id="@+id/menu_earnings_review" android:title="@string/earnings_filters_review"/>
+    <item android:id="@+id/menu_earnings_sponsorship" android:title="@string/earnings_filters_sponsorship"/>
+</menu>

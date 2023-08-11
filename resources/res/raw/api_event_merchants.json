@@ -1,0 +1,206 @@
+{
+  "data": [
+    {
+      "type": "merchant",
+      "id": "4457",
+      "attributes": {
+        "name": "Nike",
+        "description": "<p>Tous les bons de r&eacute;duction et les codes promo les plus int&eacute;ressants sont mis &agrave; votre disposition sur cette page. Pour vous garantir de r&eacute;elles &eacute;conomies, les codes de r&eacute;duction sont tous test&eacute;s et valid&eacute;s avant leur mise en ligne. Vous &ecirc;tes donc certains d'utiliser des coupons fonctionnels sur la boutique Nike !</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+        "logoPath": "/upload/cfs/Merchant/Logos/nike-store-fr.jpeg",
+        "logoRetinaPath": "/upload/cfs/Merchant/Logos/merchant-retina-4457.png",
+        "illustrationMobile": null,
+        "illustrationTopMobile": "/upload/cfs/Merchant/Covers/nike5d25997636a9c8.13722473.jpg",
+        "support": true,
+        "url": "https://www.nike.com/fr/",
+        "scoreReview": 4.697231833910035,
+        "numberReviews": 1156,
+        "rewrite": "nike"
+      },
+      "relationships": {
+        "merchantInfo": {
+          "data": {
+            "type": "merchantInfo",
+            "id": "4457"
+          }
+        },
+        "currentCashbackObject": {
+          "data": {
+            "type": "cashback",
+            "id": "60"
+          }
+        }
+      }
+    },
+    {
+      "type": "merchant",
+      "id": "54644",
+      "attributes": {
+        "name": "Emma Matelas",
+        "description": "<p><br />Vous cherchez le matelas qui change vos nuits ? D&eacute;couvrez le matelas Emma &agrave; m&eacute;moire de forme chez Emma Matelas ! Vous allez enfin passer d&rsquo;incroyables nuits avec le seul matelas ferme et accueillant, unique et universel ! Vous avez 100 nuits pour l&rsquo;essayer, la garantie est de 10 ans et la livraison et retour sont gratuits. La boutique en ligne propose &eacute;galement des s&eacute;lections de sommiers, prot&egrave;ge-matelas, surmatelas et oreillers. Vous y trouverez aussi des matelas b&eacute;b&eacute;. Le matelas Emma est fabriqu&eacute; &agrave; partir des meilleurs mat&eacute;riaux et par les meilleurs fabricants de matelas en Allemagne. Pour assurer par ailleurs la qualit&eacute; du produit, chaque matelas est minutieusement inspect&eacute; avant d&rsquo;&ecirc;tre livr&eacute;. Emma est le matelas le plus prim&eacute; d&rsquo;Europe, alors, n&rsquo;h&eacute;sitez pas &agrave; en b&eacute;n&eacute;ficier !</p>",
+        "logoPath": "/upload/cfs/Merchant/Logos/emma-matelas62e91f79b2c067.20766895.png",
+        "logoRetinaPath": "",
+        "illustrationMobile": null,
+        "illustrationTopMobile": "/upload/cfs/Merchant/Illustrations/emma-matelas5f201740499cd2.62240063.jpg",
+        "support": true,
+        "url": "https://www.emma.fr/",
+        "scoreReview": 4.486486486486487,
+        "numberReviews": 111,
+        "rewrite": "emma-matelas"
+      },
+      "relationships": {
+        "merchantInfo": {
+          "data": {
+            "type": "merchantInfo",
+            "id": "54644"
+          }
+        }
+      }
+    },
+    {
+      "type": "merchant",
+      "id": "980",
+      "attributes": {
+        "name": "Showroomprive",
+        "description": "Tous les codes promo Showroomprive répertoriés et négociés sont disponibles sur cette page. Retrouvez régulièrement de nouveaux codes réduction Showroomprive.",
+        "logoPath": "/upload/cfs/Merchant/Logos/merchant-980.png",
+        "logoRetinaPath": "",
+        "illustrationMobile": null,
+        "illustrationTopMobile": "/upload/cfs/Merchant/Covers/showroomprive5cbf21f86dd617.03770048.jpg",
+        "support": true,
+        "url": "https://www.showroomprive.com/",
+        "scoreReview": 3.1400560224089635,
+        "numberReviews": 357,
+        "rewrite": "showroomprive"
+      },
+      "relationships": {
+        "merchantInfo": {
+          "data": {
+            "type": "merchantInfo",
+            "id": "980"
+          }
+        },
+        "currentCashbackObject": {
+          "data": {
+            "type": "cashback",
+            "id": "7304"
+          }
+        }
+      }
+    },
+    {
+      "type": "merchant",
+      "id": "8927",
+      "attributes": {
+        "name": "Maisons du Monde",
+        "description": "<p>Maisons du Monde est une boutique en ligne sur laquelle vous pourrez retrouver des objets d&eacute;co et des meubles du monde entier. Que vous soyez &agrave; la recherche d'un canap&eacute;, d'un lit ou d'un luminaire, vous &ecirc;tes s&ucirc;rs de trouver votre bonheur sur Maisonsdumonde.com.</p>",
+        "logoPath": "/upload/cfs/Merchant/Logos/merchant-8927.jpg",
+        "logoRetinaPath": "/upload/cfs/Merchant/Logos/merchant-retina-8927.png",
+        "illustrationMobile": null,
+        "illustrationTopMobile": "/upload/cfs/Merchant/Covers/maison-du-monde5cbf0f7929d1d2.34186083.jpg",
+        "support": true,
+        "url": "https://www.maisonsdumonde.com/",
+        "scoreReview": 3.668863261943987,
+        "numberReviews": 607,
+        "rewrite": "maisons-du-monde-fr"
+      },
+      "relationships": {
+        "merchantInfo": {
+          "data": {
+            "type": "merchantInfo",
+            "id": "8927"
+          }
+        },
+        "currentCashbackObject": {
+          "data": {
+            "type": "cashback",
+            "id": "7492"
+          }
+        }
+      }
+    },
+    {
+      "type": "merchant",
+      "id": "955",
+      "attributes": {
+        "name": "ALL - Accor Live Limitless",
+        "description": "<p>Explorez le monde avec ALL &ndash; Accor Live Limitless. Vous pourrez profiter de plus de&nbsp;3 900 addresses&nbsp;aux quatre coins du monde, allant du luxe &agrave; l'&eacute;conomie.</p>",
+        "logoPath": "/upload/cfs/Merchant/Logos/merchant-955.png",
+        "logoRetinaPath": "/upload/cfs/Merchant/Logos/merchant-retina-955.png",
+        "illustrationMobile": null,
+        "illustrationTopMobile": "/upload/cfs/Merchant/Illustrations/600-600-all-accor6269623370ae47.31342172.png",
+        "support": true,
+        "url": "https://all.accor.com/france/index.fr.shtml",
+        "scoreReview": 4.400372439478585,
+        "numberReviews": 537,
+        "rewrite": "accorhotels"
+      },
+      "relationships": {
+        "merchantInfo": {
+          "data": {
+            "type": "merchantInfo",
+            "id": "955"
+          }
+        },
+        "currentCashbackObject": {
+          "data": {
+            "type": "cashback",
+            "id": "1204"
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "cashback",
+      "id": "60",
+      "attributes": {
+        "specificationCommissionType": 2,
+        "specificationCashbackVariableStatus": true,
+        "specificationUsersSpecificationStandardCashbackRate": 5,
+        "specificationUsersSpecificationStandardPreviousCashbackRate": 2.5,
+        "specificationUsersSpecificationStandardSpecificationGenerated": "<p><b>Le barème du cashback Nike : </b></p> <ul> </ul> <br> <p><b>Les conditions du cashback Nike : </b></p> <ul> <li>Nike ne validera pas votre cashback si vous annulez votre commande </li> <li>Nike ne validera pas votre cashback en cas de retour de toute ou partie de votre commande </li> <li>Le cashback ne sera enregistré par Nike que si Poulpeo est bien le dernier site sur lequel vous avez cliqué avant de faire votre commande </li> </ul> <br> <p><b>Bon à savoir : </b></p> <ul> <li>Le délai moyen de validation du cashback Nike est de 2 mois</li> </ul>",
+        "specificationUsersSpecificationStandardConditionGenerated": "<ul>\r\n<li><strong>5% </strong>de cashback sur les produits non remis&eacute;s</li>\r\n<li><strong>2,5% </strong>de cashback sur les produits remis&eacute;s</li>\r\n</ul>\r\n<p><strong>Important :</strong></p>\r\n<ul>\r\n<li>Seuls les codes promos portant la mention \"+ X% rembours&eacute;s en cashback\" sont cumulables avec le cashback Nike</li>\r\n<li>Pas de cashback via l'application Nike</li>\r\n<li>Le cashback Nike n'est pas valable sur les produits de la page Launch (articles vendus en &eacute;dition limit&eacute;e sur la page Launch)</li>\r\n<li>Le cashback Nike n'est pas valable sur les Apple Watch, les cartes cadeaux, NikeLAb et SNEAKRS hub / Launch</li>\r\n<li>Le cashback ne sera pas valid&eacute; par Nike en cas de retour d'un article sur la commande</li>\r\n<li>Le cashback Nike n'est pas cumulable avec l'offre &eacute;tudiante</li>\r\n</ul>"
+      }
+    },
+    {
+      "type": "cashback",
+      "id": "7304",
+      "attributes": {
+        "specificationCommissionType": 2,
+        "specificationCashbackVariableStatus": false,
+        "specificationUsersSpecificationStandardCashbackRate": 6,
+        "specificationUsersSpecificationStandardPreviousCashbackRate": 1.5,
+        "specificationUsersSpecificationStandardSpecificationGenerated": "<p><b>Les conditions du cashback Showroomprive : </b></p> <ul> <li> Le cashback Showroomprive n'est valable que pour votre première commande sur le site</li> <li> Le cashback Showroomprive n'est cumulable qu'avec les codes promos comportant la mention \"+X% de cashback\"</li> <li>Showroomprive ne validera pas votre cashback si vous annulez votre commande </li> <li>Showroomprive ne validera pas votre cashback en cas de retour de toute ou partie de votre commande </li> <li>Le cashback ne sera enregistré par Showroomprive que si Poulpeo est bien le dernier site sur lequel vous avez cliqué avant de faire votre commande </li> <li>Le nombre de cashbacks Showroomprive est limité à 1 par personne et par foyer </li> </ul> <br> <p><b>Bon à savoir : </b></p> <ul> <li>Le délai moyen de validation du cashback Showroomprive est de 2 mois</li> </ul>",
+        "specificationUsersSpecificationStandardConditionGenerated": "<p><b>Les conditions du cashback Showroomprive : </b></p> <ul> <li> Le cashback Showroomprive n'est valable que pour votre première commande sur le site</li> <li> Le cashback Showroomprive n'est cumulable qu'avec les codes promos comportant la mention \"+X% de cashback\"</li> <li>Showroomprive ne validera pas votre cashback si vous annulez votre commande </li> <li>Showroomprive ne validera pas votre cashback en cas de retour de toute ou partie de votre commande </li> <li>Le cashback ne sera enregistré par Showroomprive que si Poulpeo est bien le dernier site sur lequel vous avez cliqué avant de faire votre commande </li> <li>Le nombre de cashbacks Showroomprive est limité à 1 par personne et par foyer </li> </ul> <br> <p><b>Bon à savoir : </b></p> <ul> <li>Le délai moyen de validation du cashback Showroomprive est de 2 mois</li> </ul>"
+      }
+    },
+    {
+      "type": "cashback",
+      "id": "7492",
+      "attributes": {
+        "specificationCommissionType": 2,
+        "specificationCashbackVariableStatus": true,
+        "specificationUsersSpecificationStandardCashbackRate": 4,
+        "specificationUsersSpecificationStandardPreviousCashbackRate": 0,
+        "specificationUsersSpecificationStandardSpecificationGenerated": "<p><b>Le barème du cashback Maisons du Monde : </b></p> <ul> <li> <b>4%</b> de cashback pour toute 1ère commande chez Maisons du Monde <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>2,6%</b> de cashback pour les commandes suivantes <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> </ul> <br> <p><b>Les conditions du cashback Maisons du Monde : </b></p> <ul> <li> Le cashback Maisons du Monde n'est cumulable qu'avec les codes promos comportant la mention \"+X% de cashback\"</li> <li>Maisons du Monde ne validera pas votre cashback si vous annulez votre commande </li> <li>Maisons du Monde ne validera pas votre cashback en cas de retour de toute ou partie de votre commande </li> <li>Le cashback ne sera enregistré par Maisons du Monde que si Poulpeo est bien le dernier site sur lequel vous avez cliqué avant de faire votre commande </li> </ul> Le cashback maisons du monde sera visible sur votre compte dans un délai de 15 jours <br> <p><b>Bon à savoir : </b></p> <ul> <li>Le délai moyen de validation du cashback Maisons du Monde est de 2 mois</li> </ul>",
+        "specificationUsersSpecificationStandardConditionGenerated": "<p><b>Le barème du cashback Maisons du Monde : </b></p> <ul> <li> <b>4%</b> de cashback pour toute 1ère commande chez Maisons du Monde <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>2,6%</b> de cashback pour les commandes suivantes <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> </ul> <br> <p><b>Les conditions du cashback Maisons du Monde : </b></p> <ul> <li> Le cashback Maisons du Monde n'est cumulable qu'avec les codes promos comportant la mention \"+X% de cashback\"</li> <li>Maisons du Monde ne validera pas votre cashback si vous annulez votre commande </li> <li>Maisons du Monde ne validera pas votre cashback en cas de retour de toute ou partie de votre commande </li> <li>Le cashback ne sera enregistré par Maisons du Monde que si Poulpeo est bien le dernier site sur lequel vous avez cliqué avant de faire votre commande </li> </ul> Le cashback maisons du monde sera visible sur votre compte dans un délai de 15 jours <br> <p><b>Bon à savoir : </b></p> <ul> <li>Le délai moyen de validation du cashback Maisons du Monde est de 2 mois</li> </ul>"
+      }
+    },
+    {
+      "type": "cashback",
+      "id": "1204",
+      "attributes": {
+        "specificationCommissionType": 2,
+        "specificationCashbackVariableStatus": true,
+        "specificationUsersSpecificationStandardCashbackRate": 9,
+        "specificationUsersSpecificationStandardPreviousCashbackRate": 0,
+        "specificationUsersSpecificationStandardSpecificationGenerated": "<p><b>Le barème du cashback ALL - Accor Live Limitless : </b></p> <ul> <li> <b>9%</b> de cashback sur les chaînes d'hôtels MGallery, The Sebel, Pullman, Grand Mercure, Sofitel, Sofitel Legend, SO, Adagio Premium, Rixos, Mövenpick <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>7,2%</b> de cashback sur les chaînes d'hôtels Mercure, Novotel, Adagio, Mama Shelter, Novotel Suite, Mantis, Tribe <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>4,5%</b> de cashback sur les chaînes d'hôtels Ibis, Ibis styles, Adagio Access, Greet <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>1,8%</b> de cashback sur les chaînes d'hôtels Raffles, Fairmont & Swissôtel, SBE (Delano, Hyde, Mondrian, SLS, The House of Original, The Redbury) <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>1,8%</b> de cashback sur les chaînes d'hôtels Hotel F1, Ibis Budget <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>1,9%</b> de cashback sur les chaînes d'hôtels MGallery, The Sebel, Pullman, Grand Mercure, Sofitel, Sofitel Legend, SO, Adagio Premium, Rixos, Mövenpick <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>1,9%</b> de cashback sur les chaînes d'hôtels Mercure, Novotel, Adagio, Mama Shelter, Novotel Suite, Mantis, Tribe <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>1,9%</b> de cashback sur les chaînes d'hôtels Ibis, Ibis styles, Adagio Access, Greet <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>1,9%</b> de cashback sur les chaînes d'hôtels Raffles, Fairmont & Swissôtel, SBE (Delano, Hyde, Mondrian, SLS, The House of Original, The Redbury) <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> <li> <b>1,2%</b> de cashback sur les chaînes d'hôtels Hotel F1, Ibis Budget <hr style=\"margin-top : 5px; margin-bottom : 5px\"> </li> </ul> <br> <p><b>Les conditions du cashback ALL - Accor Live Limitless : </b></p> <ul> <li> Le cashback ALL - Accor Live Limitless n'est cumulable qu'avec les codes promos comportant la mention \"+X% de cashback\"</li> <li>ALL - Accor Live Limitless ne validera pas votre cashback si vous annulez votre commande </li> <li>ALL - Accor Live Limitless ne validera pas votre cashback en cas de retour de toute ou partie de votre commande </li> <li>Le cashback ne sera enregistré par ALL - Accor Live Limitless que si Poulpeo est bien le dernier site sur lequel vous avez cliqué avant de faire votre commande </li> </ul> <br> <p><b>Bon à savoir : </b></p> <ul> <li>Le délai moyen de validation du cashback ALL - Accor Live Limitless est de 2 mois</li> </ul>",
+        "specificationUsersSpecificationStandardConditionGenerated": "<p><strong>Notez que la valeur du cashback ALL - Accor Live Limitless diff&egrave;re selon ces crit&egrave;res :</strong></p>\r\n<p><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Pour les non-membres et les porteurs de la carte Classic ou Silver :&nbsp;</span></span></p>\r\n<ul>\r\n<li><strong>5,5%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels MGallery, The Sebel, Pullman, Grand Mercure, Sofitel, Sofitel Legend, SO, Adagio Premium, Rixos, M&ouml;venpick</li>\r\n<li><strong>4,4%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels Mercure, Novotel, Adagio, Mama Shelter, Novotel Suite, Mantis, Tribe</li>\r\n<li><strong>2,4%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels Ibis, Ibis styles, Adagio Access, Greet</li>\r\n<li><strong>1,6%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels Raffles, Fairmont &amp; Swiss&ocirc;tel, SBE (Delano, Hyde, Mondrian, SLS, The House of Original, The Redbury)</li>\r\n<li><strong>1,1%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels Hotel F1, Ibis Budget</li>\r\n</ul>\r\n<p><span style=\"text-decoration-line: underline;\">Pour les membres porteurs de la carte Platinium, Gold, Diamond :&nbsp;</span></p>\r\n<ul>\r\n<li><strong>1,6%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels MGallery, The Sebel, Pullman, Grand Mercure, Sofitel, Sofitel Legend, SO, Adagio Premium, Rixos, M&ouml;venpick</li>\r\n<li><strong>1,6%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels Mercure, Novotel, Adagio, Mama Shelter, Novotel Suite, Mantis, Tribe</li>\r\n<li><strong>1,6%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels Ibis, Ibis styles, Adagio Access, Greet</li>\r\n<li><strong>1,6%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels Raffles, Fairmont &amp; Swiss&ocirc;tel, SBE (Delano, Hyde, Mondrian, SLS, The House of Original, The Redbury)</li>\r\n<li><strong>1,1%</strong> de cashback sur les cha&icirc;nes d'h&ocirc;tels Hotel F1, Ibis Budget</li>\r\n</ul>\r\n<hr />\r\n<p><strong>Bon &agrave; savoir : </strong></p>\r\n<ul>\r\n<li>Le d&eacute;lai moyen de validation du cashback ALL - Accor Live Limitless est de 2 mois</li>\r\n<li>Le cashback ne sera enregistr&eacute; par ALL - Accor Live Limitless que si Poulpeo est bien le dernier site sur lequel vous avez cliqu&eacute; avant de faire votre commande.</li>\r\n<li>ALL - Accor Live Limitless ne validera pas votre cashback si vous annulez votre commande.</li>\r\n<li>En cas de r&eacute;clamation de cashback, Accor se r&eacute;serve le droit de demander une facture comme preuve de s&eacute;jour &agrave; l&rsquo;h&ocirc;tel r&eacute;serv&eacute;. Toute r&eacute;clamation devra &ecirc;tre faite au moins 15 jours apr&egrave;s la date de votre check-out. Les demandes effectu&eacute;es avant ce d&eacute;lai seront automatiquement rejet&eacute;es.</li>\r\n<li>Vous pouvez cumuler des points Rewards ALL - Accor Live Limitless, de notre programme de fid&eacute;lit&eacute; lifestyle, en m&ecirc;me temps que le cashback. (Attention cependant, le cashback n'est pas cr&eacute;dit&eacute; lors de l'utilisation des points Rewards ALL - Accor Live Limitless pour r&eacute;server).</li>\r\n<li>Le cashback n'est pas valide sur les achats effectu&eacute;s sur l'application mobile ALL - Accor Live Limiteless</li>\r\n<li>Le cashback ne sera enregistr&eacute; par ALL - Accor Live Limitless que si Poulpeo est bien le dernier site sur lequel vous avez cliqu&eacute; avant de faire votre commande.</li>\r\n</ul>"
+      }
+    }
+  ],
+  "links": {
+    "next": "https://api.poulpeo.com/1.0/app/merchants/4662/similarMerchants?include%5Bmerchant%5D=currentCashbackObject&limit=5&sort=name&offset=5"
+  }
+}

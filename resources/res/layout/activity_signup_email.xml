@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="64dp" android:paddingBottom="50dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/til_email" android:layout_width="@dimen/account_sign_in_width" android:layout_height="wrap_content" android:hint="@string/account_email" app:hintAnimationEnabled="false">
+                <EditText android:id="@+id/editTextEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="actionNext" style="@style/login_edit_fields"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <FrameLayout android:layout_width="@dimen/account_sign_in_width" android:layout_height="wrap_content" style="@style/login_edit_fields">
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/til_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/account_password" app:hintAnimationEnabled="false" app:passwordToggleEnabled="false">
+                    <EditText android:id="@+id/editTextPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textVisiblePassword" android:imeOptions="actionDone"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView android:textColor="@color/ColorPrimary" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/textViewShowPassword" android:padding="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-4dp" android:text="@string/account_show_password" android:layout_marginEnd="-12dp"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                <TextView android:textSize="12sp" android:textColor="@color/text_subtitle_default" android:gravity="center" android:id="@+id/textViewUppercase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_signup_conditions_uppercase" android:drawablePadding="4dp" android:drawableStart="@drawable/checkmark_grey"/>
+                <TextView android:textSize="12sp" android:textColor="@color/text_subtitle_default" android:gravity="center" android:id="@+id/textViewNumeric" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_signup_conditions_numeric" android:drawablePadding="4dp" android:drawableStart="@drawable/checkmark_grey" android:layout_marginStart="8dp"/>
+                <TextView android:textSize="12sp" android:textColor="@color/text_subtitle_default" android:gravity="center" android:id="@+id/textViewLength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_signup_conditions_length" android:drawablePadding="4dp" android:drawableStart="@drawable/checkmark_grey" android:layout_marginStart="8dp"/>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp">
+                <ProgressBar android:id="@+id/progressbarLoader" android:layout_width="40dp" android:layout_height="40dp" android:layout_centerInParent="true"/>
+                <Button android:id="@+id/buttonSignUp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:text="@string/account_signup_button_email_signup" android:layout_centerInParent="true" style="@style/MRButton"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolBar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:layout_scrollFlags="15" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/gradient_linear_theme" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/layoutUserInfo" android:paddingBottom="50dp" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="188dp" android:layout_height="188dp">
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar android:id="@+id/circleProgress" android:layout_width="192dp" android:layout_height="192dp" android:layout_centerInParent="true" app:cpb_background_progressbar_color="@android:color/transparent" app:cpb_background_progressbar_width="4dp" app:cpb_progressbar_color="@color/background_alternative" app:cpb_progressbar_width="4dp"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="40sp" android:textColor="@color/text_title_alternative" android:id="@+id/textViewPendingAmount" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="12sp" android:textColor="@color/text_title_alternative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_pending_amount_label"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="28sp" android:textColor="@color/text_title_alternative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/welcome_title"/>
+        <TextView android:textSize="28sp" android:textColor="@color/text_title_alternative" android:ellipsize="end" android:id="@+id/textViewName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/text_title_alternative" android:gravity="center" android:id="@+id/textViewLoadingMessage" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/welcome_loading_message_get_user_data" android:layout_below="@+id/layoutUserInfo" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <Button android:id="@+id/buttonRetry" android:layout_marginBottom="80dp" android:text="@string/welcome_retry" android:height="48dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/MRButtonAlternative"/>
+</RelativeLayout>

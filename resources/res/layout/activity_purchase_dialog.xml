@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/layoutActivityCashBackInfo" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/layoutCopiedCode" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:id="@+id/layoutCopiedCodeLayout" android:background="@color/background_theme" android:layout_width="match_parent" android:layout_height="70dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/purchase_check" android:contentDescription="@null"/>
+            <TextView android:textSize="20sp" android:textColor="@color/button_text_default" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/purchase_copied_code" android:textAllCaps="true" android:layout_marginStart="12dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/layoutCopiedCodeCashback" android:background="@color/background_activated" android:layout_width="match_parent" android:layout_height="70dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/purchase_check" android:contentDescription="@null"/>
+            <TextView android:textSize="20sp" android:textColor="@color/button_text_default" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/purchase_activated_cashback" android:textAllCaps="true" android:layout_marginStart="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/layoutDialog" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="150dp" android:layout_weight="1">
+            <ImageButton android:layout_gravity="end" android:id="@+id/buttonDialogClose" android:background="@drawable/button_white_style_no_stroke" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginBottom="20dp" android:src="@drawable/action_close_grey" android:contentDescription="@android:string/ok" android:layout_marginEnd="20dp" style="@style/Widget.AppCompat.Button.Borderless"/>
+            <include android:id="@+id/viewOffersInfo" layout="@layout/view_offers_info"/>
+            <FrameLayout android:id="@+id/layoutDialogContent" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/layoutActivatedCashbackCustomTabs" android:background="@color/background_activated" android:layout_width="match_parent" android:layout_height="70dp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/imageViewActivated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/purchase_check" android:contentDescription="@null"/>
+                <TextView android:textSize="20sp" android:textColor="@color/button_text_default" android:id="@+id/textViewActivated" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/purchase_activated_cashback" android:textAllCaps="true" android:layout_marginStart="12dp"/>
+            </LinearLayout>
+            <RelativeLayout android:id="@+id/layoutButtonActivateCashbackCustomTabs" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:id="@+id/buttonActivateCashback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:text="@string/cashback_button_activate_label" android:layout_centerInParent="true" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" style="@style/MRButton"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

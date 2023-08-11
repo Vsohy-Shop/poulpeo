@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ImageButton android:id="@+id/imageButtonSubmit" android:visibility="gone" android:layout_marginBottom="16dp" android:src="@drawable/action_send" android:layout_alignParentBottom="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" style="@style/ButtonSubmit"/>
+    <View android:id="@+id/viewOverlay" android:background="@drawable/shape_send_data_overlay" android:layout_width="0dp" android:layout_height="0dp" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+    <RelativeLayout android:id="@+id/layoutCommentLoading" android:background="@color/theme" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/layoutSendResult" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="44sp" android:textColor="@color/text_title_alternative" android:gravity="center_horizontal" android:id="@+id/textViewSendResultTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/comment_success_title"/>
+            <TextView android:textSize="18sp" android:textColor="@color/text_title_alternative" android:gravity="center_horizontal" android:id="@+id/textViewSendResultSubtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/comment_success_subtitle" android:paddingStart="40dp" android:paddingEnd="40dp"/>
+        </LinearLayout>
+        <ProgressBar android:id="@+id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <TextView android:textSize="13sp" android:textColor="@color/text_title_alternative" android:id="@+id/textViewCancel" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/send_data_cancel" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</merge>

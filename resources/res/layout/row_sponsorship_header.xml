@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+        <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/text_title_default" android:layout_gravity="center" android:id="@+id/textViewMember" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/sponsorship_description_member"/>
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/text_title_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sponsorship_description_title"/>
+        <TextView android:textSize="16sp" android:textColor="@color/text_title_default" android:id="@+id/textViewAdvantages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/sponsorship_description_advantages"/>
+        <TextView android:textSize="14sp" android:textColor="@color/text_title_default" android:id="@+id/textViewSponsoredBonus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/sponsorship_description_sponsors" android:drawablePadding="8dp" android:drawableStart="@drawable/arrow_sponsorship" android:layout_marginStart="8dp"/>
+        <View android:layout_marginTop="15dp" style="@style/separator_default"/>
+        <TextView android:textSize="14sp" android:textColor="@color/text_title_default" android:layout_gravity="center" android:id="@+id/textViewWelcome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/sponsorship_description_welcome"/>
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:textColor="@color/text_title_default" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="35dp" android:text="@string/sponsorship_sponsor_code_title"/>
+    <TextView android:textSize="34sp" android:textColor="@color/sponsorship_status_accepted" android:gravity="center_horizontal" android:id="@+id/textViewSponsorCode" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textIsSelectable="true"/>
+    <RelativeLayout android:background="@color/background_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="34dp">
+        <View android:id="@+id/sponsorship_header_background_anchor" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="12dp"/>
+        <View android:id="@+id/sponsorship_header_background_gradient" android:background="@drawable/background_expandable_list_sub_item_last_light" android:layout_width="match_parent" android:layout_height="12dp" android:layout_below="@+id/sponsorship_header_background_anchor"/>
+        <View android:id="@+id/separator" android:layout_below="@+id/sponsorship_header_background_gradient" style="@style/separator_default"/>
+        <Button android:textSize="18sp" android:layout_gravity="center_horizontal" android:id="@+id/buttonSponsorCodeShare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0dp" android:text="@string/sponsorship_sponsor_code_share" style="@style/MRButtonEarnings"/>
+    </RelativeLayout>
+    <FrameLayout android:background="@color/background_default" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:gravity="center_vertical" android:id="@+id/textViewSponsoredUsersTitle" android:layout_width="match_parent" android:layout_height="68dp" android:text="@string/sponsorship_sponsored_users" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    </FrameLayout>
+</LinearLayout>

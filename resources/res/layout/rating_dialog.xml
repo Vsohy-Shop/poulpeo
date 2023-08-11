@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/layoutRate" android:layout_width="250dp" android:layout_height="wrap_content">
+        <ImageView android:layout_width="match_parent" android:layout_height="130dp" android:src="@drawable/onboarding_bg_2" android:scaleType="fitXY" android:layout_alignParentTop="true" android:contentDescription="@null"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="20sp" android:textColor="@color/text_title_alternative" android:id="@+id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/rating_dialog_question_title"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/layoutGoodBad" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60dp">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageViewSmileyBad" android:background="@drawable/button_round_alternative_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:src="@drawable/rate_bad" android:contentDescription="@null"/>
+                    <Button android:id="@+id/buttonBad" android:clickable="false" android:layout_width="90dp" android:layout_height="40dp" android:layout_marginBottom="0dp" android:text="@string/no" style="@style/MRButtonAlternative"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20dp">
+                    <ImageView android:id="@+id/imageViewSmileyGood" android:background="@drawable/button_round_alternative_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:src="@drawable/rate_good" android:contentDescription="@null"/>
+                    <Button android:id="@+id/buttonGood" android:clickable="false" android:layout_width="90dp" android:layout_height="40dp" android:layout_marginBottom="0dp" android:text="@string/yes" style="@style/MRButton"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textSize="16sp" android:id="@+id/buttonClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:layout_marginBottom="0dp" android:text="@string/rating_dialog_close" style="@style/MRButtonAlternativeNoStroke"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/layoutThanks" android:layout_width="250dp" android:layout_height="280dp">
+        <ImageView android:layout_width="match_parent" android:layout_height="160dp" android:src="@drawable/onboarding_bg_3" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:contentDescription="@null"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="40sp" android:textColor="@color/text_title_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rating_dialog_thank_title"/>
+            <TextView android:textSize="20sp" android:textColor="@color/text_title_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rating_dialog_thank_subtitle"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonCloseThanks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/rating_dialog_close" style="@style/MRButtonAlternativeNoStroke"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

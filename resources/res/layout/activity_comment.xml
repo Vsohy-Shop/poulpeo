@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <include layout="@layout/tool_bar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView android:paddingTop="24dp" android:paddingBottom="24dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/appbar" android:layout_alignParentBottom="true">
+        <EditText android:textColorHint="@color/text_hint_default" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/editTextComment" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="200dp" android:hint="@string/comment_hint" android:maxLength="1000" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    </ScrollView>
+    <include layout="@layout/layout_send_data"/>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/background_alternative" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="64dp" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false">
+            <TextView android:textSize="28sp" android:id="@+id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_login"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonLoginGoogle" android:layout_marginTop="40dp" android:layout_marginBottom="0dp" android:text="@string/button_google_login" style="@style/GoogleLoginButton"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonLoginFacebook" android:layout_marginTop="16dp" android:text="@string/button_facebook_login" style="@style/FacebookLoginButton"/>
+            <Button android:textSize="16sp" android:id="@+id/buttonLoginApple" android:layout_marginTop="16dp" android:text="@string/button_apple_login" style="@style/AppleLoginButton"/>
+            <com.google.android.material.textfield.TextInputLayout android:id="@+id/til_email" android:layout_width="@dimen/account_sign_in_width" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:hint="@string/account_email" app:hintAnimationEnabled="false">
+                <EditText android:id="@+id/editTextEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="actionNext" style="@style/login_edit_fields"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <RelativeLayout android:layout_width="@dimen/account_sign_in_width" android:layout_height="wrap_content" style="@style/login_edit_fields">
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/til_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/account_password" app:hintAnimationEnabled="false" app:passwordToggleEnabled="false">
+                    <EditText android:id="@+id/editTextPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textVisiblePassword" android:imeOptions="actionDone"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView android:textColor="@color/button_text_borderless_default" android:id="@+id/textViewForgotPassword" android:padding="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_forgot_password" android:layout_alignBottom="@+id/til_password" android:layout_alignEnd="@+id/til_password"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="100dp">
+                <ProgressBar android:id="@+id/progressbarLoader" android:layout_width="40dp" android:layout_height="40dp" android:layout_centerInParent="true"/>
+                <Button android:id="@+id/buttonSignIn" android:layout_marginBottom="0dp" android:text="@string/account_login" style="@style/MRButton"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:layout_gravity="bottom" android:layout_above="@+id/textViewCreateAccount" style="@style/separator_default"/>
+    <TextView android:textSize="14sp" android:textColor="@color/text_title_default" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/textViewCreateAccount" android:background="@drawable/button_flat_default_style" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/prompt_join_btn" android:layout_alignParentBottom="true"/>
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolBar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <FrameLayout android:id="@+id/layoutLoader" android:background="@color/background_default" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progressBarLoaderLayout" android:layout_width="40dp" android:layout_height="40dp"/>
+    </FrameLayout>
+</RelativeLayout>
